@@ -1,0 +1,22 @@
+.teams {
+    display: grid;
+    row-gap: 4rem;
+    width: 100%;
+    padding-block: 4rem;
+    background-position: right top;
+    background-image: url('/bg-img.png');
+    background-size: cover;
+
+    h1 {
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    &_grid {
+        justify-self: center;
+        width: 90%;
+        row-gap: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+}

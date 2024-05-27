@@ -1,0 +1,23 @@
+@import '../../styles/main.scss';
+
+.card {
+    width: 367px;
+    padding: 2rem;
+    border: 1px solid #CFABEC;
+
+    &_img {
+        width: 100%;
+    }
+
+    .title {
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-size: 1.6rem;
+
+        a {
+            color: $text-300;
+        }
+    }
+}

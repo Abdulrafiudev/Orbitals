@@ -1,0 +1,23 @@
+@import "../../styles/main.scss";
+
+.news {
+    display: grid;
+    row-gap: 4rem;
+    width: 100%;
+    padding-block: 6rem 30rem;
+    background-position: right top;
+    background-image: url('/bg-img.png');
+    background-size: cover;
+
+    h1{
+        text-align: center;
+    }
+
+    &_grid {
+        justify-self: center;
+        width: 90%;
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(367px, 1fr));
+    }
+}
