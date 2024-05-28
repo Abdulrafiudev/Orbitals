@@ -1,6 +1,7 @@
 import Link from "next/link"
 import style from "./style.module.scss"
-const Team = ({ team }) => {
+const Team = props => {
+  const { team } = props
   return (
     <div className={style.team}>
       <img src={team.image} className={style.user_image} alt={team.name} />
