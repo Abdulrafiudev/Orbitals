@@ -1,12 +1,15 @@
-import style from './styles.module.scss'
-import Link from 'next/link';
+import style from "./styles.module.scss";
+import Link from "next/link";
 
 const Footer = () => {
     return (
         <footer className={style.footer}>
-
             <div className={style.top}>
-                <img src="/Logo-on-black.png" alt="logo" className={style.footer_logo} />
+                <img
+                    src="/Logo-on-black.png"
+                    alt="logo"
+                    className={style.footer_logo}
+                />
                 <div className={style.right}>
                     <ul className={style.col_1}>
                         <li className={style.title}>Models</li>
@@ -94,6 +97,6 @@ const Footer = () => {
             </div>
         </footer>
     );
-}
+};
 
 export default Footer;
