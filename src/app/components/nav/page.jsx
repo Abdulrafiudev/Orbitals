@@ -33,7 +33,9 @@ const Nav = () => {
             link: "#"
         },
     ]
+
     const userName = 'Dahir Bello'
+    
     return (
         <nav className={style.nav}>
             <img src="/Logo-on-black.png" className={style.nav_logo} alt="logo" />
