@@ -4,9 +4,9 @@ const NewsCard = (props) => {
   const { item } = props
   return (
     <div className={style.card}>
-      <img src={item['link']} alt={item.name} className={style.card_img} />
-      <p className={style.title}>{item.headline}</p>
-      <p className={style.subtitle}>
+      <img src={`${item?.source}`} alt={item.name} className={style.card_img} />
+      <p className={style.title}>{item?.headline}</p>
+      <p className={style?.subtitle}>
         {item.subtitle}
         <span>
           <Link href="#"> See more</Link>

@@ -1,22 +1,22 @@
 import style from "./styles.module.scss"
-import NewsCard from "../news_card/page"
+import NewsCard from "../news_card"
 
 const News = () => {
     const news = [
         {
-            'link': '/ai.png',
+            source: '/ai.png',
             name: 'ai_img',
             headline: 'How To Get A job in orbitals',
             subtitle: 'our vision is to create an advanced speech recognition and intelligence system that will power Africa.'
         },
         {
-            'link': '/ai.png',
+            source: '/ai.png',
             name: 'ai_img',
             headline: 'How To Get A job in orbitals',
             subtitle: 'our vision is to create an advanced speech recognition and intelligence system that will power Africa.'
         },
         {
-            'link': '/ai.png',
+            source: '/ai.png',
             name: 'ai_img',
             headline: 'How To Get A job in orbitals',
             subtitle: 'our vision is to create an advanced speech recognition and intelligence system that will power Africa.'
