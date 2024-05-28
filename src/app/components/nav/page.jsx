@@ -10,32 +10,32 @@ const Nav = () => {
         {
             name: 'about us',
             dropdown: false,
-            link: "/"
+            'link': "/"
         },
         {
             name: 'models',
             dropdown: true,
-            link: "#"
+            'link': "#"
         },
         {
             name: 'playground',
             dropdown: false,
-            link: "#"
+            'link': "#"
         },
         {
             name: 'contact us',
             dropdown: false,
-            link: "#"
+            'link': "#"
         },
         {
             name: 'developers',
             dropdown: true,
-            link: "#"
+            'link': "#"
         },
     ]
 
     const userName = 'Dahir Bello'
-    
+
     return (
         <nav className={style.nav}>
             <img src="/Logo-on-black.png" className={style.nav_logo} alt="logo" />
@@ -44,7 +44,7 @@ const Nav = () => {
                     navItems.map((item, index) => {
                         return (
                             <Link href={item.link} key={index} className={style.nav_link}>
-                                <li className={pathname === item.link ?  `${style.active}` : `${style.nav_link_paragaraph}`}>{item.name}</li>
+                                <li className={pathname === item['link'] ?  `${style.active}` : `${style.nav_link_paragaraph}`}>{item.name}</li>
                                 {
                                     item.dropdown && ( <img src='/dropdown.png' className={style.dropdown_icon} alt='dropdown-icon' /> )
                                 }

@@ -7,49 +7,49 @@ const Teams = () => {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
         {
             name: 'bello tukur',
             role: "ceo",
             about: "our vision is to create an advanced speech recognition and intelligence system that will power Africa.",
-            link: "/bello_tukur.png"
+            'link': "/bello_tukur.png"
         },
     ]
     return (
