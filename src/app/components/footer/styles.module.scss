@@ -1,70 +1,69 @@
 @import "../../styles/main.scss";
 
-
 .footer {
+  width: 100%;
+  background-color: $bg-200;
+  padding-block: 4rem;
+
+  .top {
     width: 100%;
-    background-color: $bg-200;
-    padding-block: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    .top {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+    .right {
+      display: flex;
+      column-gap: 4rem;
 
-        .right {
-            display: flex;
-            column-gap: 4rem;
-
-            .col_1,
-            .col_2,
-            .col_3,
-            .col_4 {
-                .title {
-                    font-weight: 600;
-                    margin-bottom: 2rem;
-                }
-
-                a {
-                    li {
-                        margin-bottom: 1rem;
-                    }
-                }
-            }
+      .col_1,
+      .col_2,
+      .col_3,
+      .col_4 {
+        .title {
+          font-weight: 600;
+          margin-bottom: 2rem;
         }
+
+        a {
+          li {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 1.5rem;
+
+    .year {
+      font-size: 14px;
     }
 
-    .bottom {
-        margin-top: 3rem;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: center;
-        gap: 1.5rem;
-
-        .year {
-            font-size: 14px;
-        }
-
-        .line {
-            width: 50%;
-            height: 2px;
-            background-color: white;
-        }
-
-        .social {
-            display: flex;
-            align-items: center;
-            gap: 1.6rem;
-
-            a{
-                li{
-                    img{
-                        width: toRem(24);
-                        height: toRem(24);
-                    }
-                }
-            }
-        }
+    .line {
+      width: 50%;
+      height: 2px;
+      background-color: white;
     }
+
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+
+      a {
+        li {
+          img {
+            width: toRem(24);
+            height: toRem(24);
+          }
+        }
+      }
+    }
+  }
 }

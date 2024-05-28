@@ -1,26 +1,25 @@
 @import "../../styles/main.scss";
 
 .history {
-    display: grid;
-    row-gap: 4rem;
-    place-content: center;
-    width: 100%;
-    padding-block: 8rem 12rem;
-    background-position: right top;
-    background-image: url('/bg-img.png');
-    background-size: cover;
+  display: grid;
+  row-gap: 4rem;
+  place-content: center;
+  width: 100%;
+  padding-block: 8rem 12rem;
+  background-position: right top;
+  background-image: url("/bg-img.png");
+  background-size: cover;
 
+  main {
+    max-width: 1118px;
+    border: 1px solid #874bb94d;
+    background-color: $bg-400;
+    text-align: center;
+    padding: 3rem 6.5rem 12rem 6.5rem;
 
-    main{
-        max-width: 1118px;
-        border: 1px solid #874BB94D;
-        background-color: $bg-400;
-        text-align: center;
-        padding: 3rem 6.5rem 12rem 6.5rem;
-
-        .wrapper{
-            max-width: 750px;
-            text-align: center;
-        }
+    .wrapper {
+      max-width: 750px;
+      text-align: center;
     }
+  }
 }

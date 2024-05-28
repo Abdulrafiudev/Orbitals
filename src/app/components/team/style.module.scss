@@ -1,39 +1,39 @@
 @import "../../styles/main.scss";
 
 .team {
-    .user_image {
-        width: 270px;
-        margin-bottom: 1rem;
-    }
+  .user_image {
+    width: 270px;
+    margin-bottom: 1rem;
+  }
 
-    .name {
-        display: flex;
-        column-gap: 8px;
-        align-items: center;
+  .name {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
 
-        span {
-            width: toRem(24);
-            height: toRem(24);
-        }
+    span {
+      width: toRem(24);
+      height: toRem(24);
     }
+  }
 
-    &_name {
-        font-weight: 600;
-        text-transform: capitalize;
-    }
+  &_name {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
 
-    .role {
-        font-size: 2.5rem;
-        text-transform: uppercase;
-    }
+  .role {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
 
-    .about {
-        font-size: 1.6rem;
-        width: 270px;
-    }
+  .about {
+    font-size: 1.6rem;
+    width: 270px;
+  }
 
-    a {
-        color: $text-300;
-        font-size: 2.1rem;
-    }
+  a {
+    color: $text-300;
+    font-size: 2.1rem;
+  }
 }

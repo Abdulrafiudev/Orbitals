@@ -1,5 +1,5 @@
-import style from './styles.module.scss';
-import NewsCard from '../news_card/page';
+import style from "./styles.module.scss"
+import NewsCard from "../news_card/page"
 
 const News = () => {
     const news = [
@@ -36,4 +36,4 @@ const News = () => {
     );
 }
 
-export default News;
+export default News
