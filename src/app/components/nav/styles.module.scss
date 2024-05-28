@@ -1,61 +1,59 @@
-@import '../../styles/main.scss';
+@import "../../styles/main.scss";
 
 .nav {
+  display: flex;
+  position: absolute;
+  top: 0;
+  background-color: $bg-100;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: toRem(18) 0;
+  border-bottom: 1px solid #874bb94d;
+
+  &_item {
     display: flex;
-    position: absolute;
-    top: 0;
-    background-color: $bg-100;
+    column-gap: toRem(16);
+  }
+
+  &_link {
+    display: flex;
     align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    padding: toRem(18) 0;
-    border-bottom: 1px solid #874BB94D;
+    color: $text-200;
 
-    &_item {
-        display: flex;
-        column-gap: toRem(16);
+    li {
+      text-transform: uppercase;
+      font-size: toRem(12);
+      line-height: toRem(23);
+      letter-spacing: 2px;
     }
 
-    &_link {
-        display: flex;
-        align-items: center;
-        color: $text-200;
+    .dropdown_icon {
+      width: toRem(20);
+      height: toRem(20);
+    }
+  }
 
-        li {
-            text-transform: uppercase;
-            font-size: toRem(12);
-            line-height: toRem(23);
-            letter-spacing: 2px;
-        }
+  &_end {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 
-        .dropdown_icon {
-            width: toRem(20);
-            height: toRem(20);
-        }
+    .profile_icon {
+      width: toRem(28);
+      height: toRem(28);
     }
 
-
-
-    &_end {
-        display: flex;
-        align-items: center;
-        gap: .5rem;
-
-        .profile_icon {
-            width: toRem(28);
-            height: toRem(28);
-        }
-
-        span {
-            font-weight: 600;
-            font-size: 14px;
-            line-height: toRem(23);
-        }
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: toRem(23);
     }
+  }
 }
 
 .active {
-    font-weight: 700;
-    color: $text-100;
-    border-bottom: 2px solid white;
+  font-weight: 700;
+  color: $text-100;
+  border-bottom: 2px solid white;
 }
