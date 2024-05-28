@@ -4,19 +4,19 @@ import NewsCard from "../news_card/page"
 const News = () => {
     const news = [
         {
-            image: '/ai.png',
+            link: '/ai.png',
             name: 'ai_img',
             headline: 'How To Get A job in orbitals',
             subtitle: 'our vision is to create an advanced speech recognition and intelligence system that will power Africa.'
         },
         {
-            image: '/ai.png',
+            link: '/ai.png',
             name: 'ai_img',
             headline: 'How To Get A job in orbitals',
             subtitle: 'our vision is to create an advanced speech recognition and intelligence system that will power Africa.'
         },
         {
-            image: '/ai.png',
+            link: '/ai.png',
             name: 'ai_img',
             headline: 'How To Get A job in orbitals',
             subtitle: 'our vision is to create an advanced speech recognition and intelligence system that will power Africa.'

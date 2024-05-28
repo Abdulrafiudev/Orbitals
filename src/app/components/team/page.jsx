@@ -4,7 +4,7 @@ const Team = props => {
   const { team } = props
   return (
     <div className={style.team}>
-      <img src={team.image} className={style.user_image} alt={team.name} />
+      <img src={team.link} className={style.user_image} alt={team.name} />
       <div className={style.name}>
         <p className={style.team_name}>{team.name}</p>
         <span>
